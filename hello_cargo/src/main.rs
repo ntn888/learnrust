@@ -1,3 +1,13 @@
 fn main() {
     println!("Hello, world!");
+    test_fn();
+}
+
+fn test_fn() {
+    let mut i: i32 = 0;
+
+    i += 1;
+    let s = String::from("hello again");
+
+    println!("{}, {}", s, i);
 }

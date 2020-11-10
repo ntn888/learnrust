@@ -1,0 +1,5 @@
+
+install <>
+	add nightly
+
+make sure to install rls
